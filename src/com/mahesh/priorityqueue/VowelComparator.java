@@ -1,0 +1,29 @@
+package com.mahesh.priorityqueue;
+
+import java.util.Comparator;
+
+public class VowelComparator implements Comparator<String>{
+
+	@Override
+	public int compare(String str1, String str2) {
+		if (getVowelCount(str1) < getVowelCount(str2)) {
+			return -1;
+		} else if (getVowelCount(str1) > getVowelCount(str2)) {
+			return 1;
+		}
+		return 0;
+	}
+	
+	public int getVowelCount(String word) {
+		int vowel = 0;
+		for (int i = 0; i < word.length(); i++) {
+			char chr = word.charAt(i);
+			if (chr == 'a' || chr == 'A' || chr == 'e' || chr == 'E'
+					|| chr == 'i' || chr == 'I' || chr == 'o' || chr == 'O'
+					|| chr == 'u' || chr == 'U')
+				vowel++;
+		}
+		return vowel;
+	}
+
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<nodeTypes>
+    <nodeType>
+        <entry>
+            <key>FrontHaul-6080</key>
+            <value>
+                <connectivityInfoId>FrontHaul6080ConnectivityInformationId</connectivityInfoId>
+                <connectivityInfoIdValue>1</connectivityInfoIdValue>
+                <connectivityInfoMo>FrontHaul6080ConnectivityInformation</connectivityInfoMo>
+                <connectivityInfoMoValue>1</connectivityInfoMoValue>
+                <fmSupported>true</fmSupported>
+                <cmSupported>true</cmSupported>
+                <pmSupported>true</pmSupported>
+            </value>
+        </entry>
+        <entry>
+            <key>Router6672</key>
+            <value>
+                <connectivityInfoId>Er6000ConnectivityInformationId</connectivityInfoId>
+                <connectivityInfoIdValue>1</connectivityInfoIdValue>
+                <connectivityInfoMo>ComEcimConnectivityInformation</connectivityInfoMo>
+                <connectivityInfoMoValue>1</connectivityInfoMoValue>
+                <fmSupported>true</fmSupported>
+                <cmSupported>true</cmSupported>
+                <pmSupported>true</pmSupported>
+            </value>
+        </entry>
+    </nodeType>
+</nodeTypes>
